@@ -5,3 +5,6 @@ Streamlit - Used to develop front end using python
 pip install streamlit
 
 Langchain and langchain-openai
+
+
+conda install anaconda::beautifulsoup4
