@@ -6,6 +6,8 @@ This repository demonstrates a workflow that integrates LangChain with a vector 
 
 The workflow processes PDF documents to create embeddings, stores them in a vector store, and then uses these embeddings to provide accurate answers to user questions through semantic search.
 
+![HTML-rag-diagram](https://github.com/aksh19cj/GenAi_ChatWithWebsite/assets/115515702/ba4b23fb-a01a-44b2-815b-60f8480b7afa)
+
 ## Workflow
 
 1. **Document Input**:
@@ -55,3 +57,14 @@ The workflow processes PDF documents to create embeddings, stores them in a vect
    ```bash
    git clone https://github.com/yourusername/langchain-pinecone-workflow.git
    cd langchain-pinecone-workflow
+
+2. **Install the requirements file**:
+   ```bash
+   pip install -r requirements.txt
+
+3. **Set Up Environment Variables**:
+   ```bash
+   Create a .env file in the project root and add your API keys and other configuration details:
+   PINECONE_API_KEY=your_pinecone_api_key
+   OPENAI_API_KEY=your_openai_api_key
+
